@@ -1,0 +1,73 @@
+$bg-color: #252932;
+$logo-bg-color: #fff;
+$color: #fff;
+.container {
+    height: 191px;
+    width: 585px;
+    color: $color;
+    font-family: Montserrat;
+    .section1 {
+        display: flex;
+        .logo {
+            background: $logo-bg-color;
+            display: inline;
+            width: 127px;
+            height: 55px;
+            padding: 12px 13px 13px 12px;
+            flex-shrink: 0;
+            flex-flow: 0;
+        }
+        .text-container {
+            width: 457px;
+            padding-top: 8px;
+            border-bottom: 1px solid #E11837;
+            .text {
+                background: $bg-color;
+                padding-right: 21px;
+                display: block;
+                height: 72px;
+                line-height: 72px;
+                text-align: right;
+            }
+        }
+    }
+    .section2 {
+        width: 585px;
+        height: 144px;
+        text-transform: uppercase;
+
+        background: $bg-color;
+        display: flex;
+        .inform-container {
+            padding-left: 42px;
+            padding-top: 23px;
+
+            font-weight: 700;
+            letter-spacing: 3.5px;
+            text-align: left;
+            letter-spacing: 3.5px;
+            margin-right: 4px;
+
+            .inform-1 {
+                width: 450px;
+                margin-bottom: 4px;
+                line-height: 16px;
+                color:  #008BC1;
+                ;
+            }
+            .inform-2 {
+                width: 450px;
+
+                font-size: 24px;
+                line-height: 27px;
+            }
+        }
+        .shape-image {
+            width: 90px;
+            height: 90px;
+
+            padding: 19px 0 35px 0;
+            flex-shrink: 0;
+        }
+    }
+}

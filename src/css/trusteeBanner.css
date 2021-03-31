@@ -1,0 +1,20 @@
+.container { height: 191px; width: 585px; color: #fff; font-family: Montserrat; }
+
+.container .section1 { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.container .section1 .logo { background: #fff; display: inline; width: 127px; height: 55px; padding: 12px 13px 13px 12px; -ms-flex-negative: 0; flex-shrink: 0; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: 0; flex-flow: 0; }
+
+.container .section1 .text-container { width: 457px; padding-top: 8px; border-bottom: 1px solid #E11837; }
+
+.container .section1 .text-container .text { background: #252932; padding-right: 21px; display: block; height: 72px; line-height: 72px; text-align: right; }
+
+.container .section2 { width: 585px; height: 144px; text-transform: uppercase; background: #252932; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.container .section2 .inform-container { padding-left: 42px; padding-top: 23px; font-weight: 700; letter-spacing: 3.5px; text-align: left; letter-spacing: 3.5px; margin-right: 4px; }
+
+.container .section2 .inform-container .inform-1 { width: 450px; margin-bottom: 4px; line-height: 16px; color: #008BC1; }
+
+.container .section2 .inform-container .inform-2 { width: 450px; font-size: 24px; line-height: 27px; }
+
+.container .section2 .shape-image { width: 90px; height: 90px; padding: 19px 0 35px 0; -ms-flex-negative: 0; flex-shrink: 0; }
+/*# sourceMappingURL=trusteeBanner.css.map */
