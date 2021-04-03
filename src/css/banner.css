@@ -1,0 +1,15 @@
+.banner-container { font-family: Montserrat; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.banner-left-shape { width: 119px; right: 71px; margin-right: 23px; }
+
+.banner-text { margin-right: 26px; padding: 26px 0; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; text-transform: uppercase; }
+
+.banner-text-1 { margin-bottom: 9px; font-size: 12px; line-height: 14px; }
+
+.banner-text-2 { font-size: 24px; line-height: 27px; }
+
+.banner-right-shape { width: 66px; height: 77px; -ms-flex-item-align: end; align-self: flex-end; }
+
+@media only screen and (max-width: 768px) { .banner-left-shape { display: none !important; }
+  .banner-text { margin-left: 13px !important; } }
+/*# sourceMappingURL=banner.css.map */
