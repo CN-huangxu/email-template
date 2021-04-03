@@ -9,6 +9,6 @@
 .banner-2-right-shape img { width: 100%; }
 
 @media only screen and (max-width: 768px) { .banner-2-text { margin: 23px 27px 23px 12px !important; }
-  .banner-2-right-shape { width: 93px; overflow: hidden; }
-  .banner-2-right-shape img { width: 166px; } }
+  .banner-2-right-shape { width: 93px !important; overflow: hidden !important; }
+  .banner-2-right-shape img { width: 166px !important; } }
 /*# sourceMappingURL=banner-2.css.map */

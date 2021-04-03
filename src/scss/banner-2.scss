@@ -28,10 +28,10 @@
     }
 
     .banner-2-right-shape {
-        width: 93px;
-        overflow: hidden;
+        width: 93px !important;
+        overflow: hidden !important;
         img {
-            width: 166px;
+            width: 166px !important;
         }
     }
 }
