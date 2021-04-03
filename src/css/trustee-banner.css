@@ -19,4 +19,6 @@
 .inform-2 { font-size: 24px; line-height: 27px; }
 
 .shape-image { width: 90px; height: 90px; padding: 19px 0 35px 0; -ms-flex-negative: 0; flex-shrink: 0; }
+
+@media only screen and (max-width: 768px) { .inform-container { padding-left: 12px !important; } }
 /*# sourceMappingURL=trustee-banner.css.map */
