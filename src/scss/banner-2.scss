@@ -1,0 +1,37 @@
+.banner-2-container {
+    font-family: Montserrat;
+
+    display: flex;
+}
+
+.banner-2-text {
+    margin: 23px 27px 23px 40px;
+    flex-grow: 1;
+
+    p {
+        font-size: 24px;
+        line-height: 27px;
+    }
+}
+.banner-2-right-shape {
+    width: 166px;
+    height: 59px;
+    align-self: flex-end;
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-2-text {
+        margin: 23px 27px 23px 12px !important;
+    }
+
+    .banner-2-right-shape {
+        width: 93px;
+        overflow: hidden;
+        img {
+            width: 166px;
+        }
+    }
+}

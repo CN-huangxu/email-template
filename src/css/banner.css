@@ -2,7 +2,7 @@
 
 .banner-left-shape { width: 119px; right: 71px; margin-right: 23px; }
 
-.banner-text { margin-right: 26px; padding: 26px 0; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; text-transform: uppercase; }
+.banner-text { margin-right: 26px; padding: 26px 0; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; text-transform: uppercase; min-width: 350px; }
 
 .banner-text-1 { margin-bottom: 9px; font-size: 12px; line-height: 14px; }
 
@@ -11,5 +11,5 @@
 .banner-right-shape { width: 66px; height: 77px; -ms-flex-item-align: end; align-self: flex-end; }
 
 @media only screen and (max-width: 768px) { .banner-left-shape { display: none !important; }
-  .banner-text { margin-left: 13px !important; } }
+  .banner-text { margin-left: 13px !important; min-width: 250px !important; margin-right: 30px !important; } }
 /*# sourceMappingURL=banner.css.map */

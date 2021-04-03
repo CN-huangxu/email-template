@@ -4,5 +4,5 @@
 
 .view-html-container p a { font-weight: 700; color: #fff; }
 
-@media only screen and (max-width: 768px) { .view-html-container { padding-right: 20px; } }
+@media only screen and (max-width: 768px) { .view-html-container { padding-right: 20px !important; } }
 /*# sourceMappingURL=view-html.css.map */

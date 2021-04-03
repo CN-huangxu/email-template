@@ -1,6 +1,6 @@
 .container { margin: 0 auto; height: 100%; width: 100%; }
 
-body { background: #ccc; }
+body { background: #ccc; margin: 0; }
 
 .container-bg { background-color: #252932; color: #fff; }
 /*# sourceMappingURL=base.css.map */
