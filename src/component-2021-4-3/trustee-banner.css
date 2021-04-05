@@ -1,0 +1,26 @@
+.trustee-banner-container { color: #fff; font-family: Montserrat; }
+
+.trustee-banner-section1 { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.trustee-banner-logo { background: #fff; padding: 12px 13px 13px 12px; -ms-flex-negative: 0; flex-shrink: 0; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: 0; flex-flow: 0; }
+
+.trustee-banner-logo img { width: 102px; height: 30px; }
+
+.trustee-banner-text { padding-top: 8px; border-bottom: 1px solid #e11837; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+
+.trustee-banner-text p { background: #252932; padding-right: 21px; line-height: 47px; text-align: right; }
+
+.trustee-banner-section2 { text-transform: uppercase; background: #252932; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.inform-container { padding-left: 42px; padding-top: 23px; font-weight: 700; letter-spacing: 3.5px; text-align: left; letter-spacing: 3.5px; margin-right: 4px; }
+
+.inform-1 { margin-bottom: 4px; }
+
+.inform-1 p { line-height: 16px; color: #008bc1; }
+
+.inform-2 p { font-size: 24px; line-height: 27px; }
+
+.shape-image { width: 90px; height: 90px; padding: 19px 0 35px 0; -ms-flex-negative: 0; flex-shrink: 0; }
+
+@media only screen and (max-width: 768px) { .inform-container { padding-left: 12px !important; } }
+/*# sourceMappingURL=trustee-banner.css.map */

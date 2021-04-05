@@ -1,0 +1,12 @@
+.finance-header-container { font-family: Montserrat; text-align: right; background: #fff; }
+
+.finance-header-container .finance-header-logo { float: left; }
+
+.finance-header-container .finance-header-logo img { width: 102px; height: 30px; margin-right: 42px; margin-bottom: 29px; }
+
+.finance-header-container .finance-header-text { float: right; margin-bottom: 25px; }
+
+.finance-header-container p { font-size: 14px; line-height: 120%; padding-top: 21px; font-weight: 500; }
+
+.finance-header-container p a { font-weight: 700; color: #fff; }
+/*# sourceMappingURL=finance-header.css.map */
