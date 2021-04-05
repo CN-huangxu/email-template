@@ -14,9 +14,11 @@
 
 .inform-container { padding-left: 42px; padding-top: 23px; font-weight: 700; letter-spacing: 3.5px; text-align: left; letter-spacing: 3.5px; margin-right: 4px; }
 
-.inform-1 { margin-bottom: 4px; line-height: 16px; color: #008bc1; }
+.inform-1 { margin-bottom: 4px; }
 
-.inform-2 { font-size: 24px; line-height: 27px; }
+.inform-1 p { line-height: 16px; color: #008bc1; }
+
+.inform-2 p { font-size: 24px; line-height: 27px; }
 
 .shape-image { width: 90px; height: 90px; padding: 19px 0 35px 0; -ms-flex-negative: 0; flex-shrink: 0; }
 
