@@ -1,4 +1,4 @@
-.research-callout-container { font-family: Montserrat; margin: 14px 42px 42px 42px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.research-callout-container { font-family: Montserrat; margin: 14px 41px 42px 41px; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
 .research-callout-text { padding: 22px 37px 28px 50px; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
 
@@ -14,7 +14,7 @@
 
 .research-callout-text-3 p { font-size: 12px; line-height: 17px; }
 
-.research-callout-button a { padding: 10px; display: inline-block; height: 34px; line-height: 34px; border-radius: 5px; text-align: center; background: #a81212; color: #fff; text-transform: uppercase; }
+.research-callout-button a { display: inline-block; height: 34px; line-height: 34px; border-radius: 5px; padding: 0 10px; text-align: center; background: #a81212; color: #fff; text-transform: uppercase; }
 
 .research-callout-right-shape { width: 116px; -ms-flex-item-align: end; align-self: flex-end; -ms-flex-negative: 0; flex-shrink: 0; }
 
