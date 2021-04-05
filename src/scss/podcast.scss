@@ -6,11 +6,11 @@
     border-bottom: 1px solid #e11837;
 }
 
-.podcast-img{
+.podcast-img {
     flex-shrink: 0;
 
     width: 148px;
-    img{
+    img {
         width: 100%;
     }
 }
@@ -77,10 +77,10 @@
     }
 
     .podcast-text-2 {
-        margin-bottom: 8px;
+        margin-bottom: 8px !important;
     }
 
-    .podcast-text-2 {
-        margin-bottom: 9px;
+    .podcast-text-3 {
+        margin-bottom: 9px !important;
     }
 }
