@@ -10,7 +10,7 @@
 
 .call-out-2-button { padding-bottom: 28px; text-align: center; }
 
-.call-out-2-button a { display: inline-block; width: 128px; height: 34px; line-height: 34px; border-radius: 5px; background: #a81212; color: #fff; text-transform: uppercase; }
+.call-out-2-button a { display: inline-block; height: 34px; line-height: 34px; border-radius: 5px; padding: 0 10px; background: #a81212; color: #fff; text-transform: uppercase; }
 
 @media only screen and (max-width: 768px) { .call-out-2-text { padding-left: 13px !important; padding-right: 13px !important; }
   .call-out-2-button { padding-bottom: 21px !important; } }
