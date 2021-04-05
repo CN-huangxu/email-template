@@ -6,7 +6,7 @@
 
 .call-out-button { padding-bottom: 28px; text-align: center; }
 
-.call-out-button a { display: inline-block; width: 128px; height: 34px; line-height: 34px; border-radius: 2px; background: #a81212; color: #fff; text-transform: uppercase; }
+.call-out-button a { display: inline-block; width: 128px; height: 34px; line-height: 34px; border-radius: 5px; background: #a81212; color: #fff; text-transform: uppercase; }
 
 @media only screen and (max-width: 768px) { .call-out-text { padding-left: 13px !important; padding-right: 13px !important; }
   .call-out-button { padding-bottom: 21px !important; } }
