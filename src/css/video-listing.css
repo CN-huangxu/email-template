@@ -12,7 +12,7 @@
 
 .video-listing-button { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.video-listing-button a { display: inline-block; height: 34px; line-height: 34px; border-radius: 5px; font-weight: 700; text-align: center; padding: 0 10px; background: #e11837; border: 1px solid #e11837; color: #fff; text-transform: uppercase; margin-right: 14px; }
+.video-listing-button a { display: inline-block; height: 34px; line-height: 34px; border-radius: 5px; font-size: 12px; font-weight: 700; text-align: center; padding: 0 10px; background: #e11837; border: 1px solid #e11837; color: #fff; text-transform: uppercase; margin-right: 14px; }
 
 .video-listing-img { -ms-flex-negative: 0; flex-shrink: 0; width: 150px; height: 150px; padding: 2px 36px 26px 32px; overflow: hidden; }
 
