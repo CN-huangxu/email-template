@@ -1,0 +1,2802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>My Email Subject</title>
+	<meta name="referrer" content="never">
+	<meta name="version" type="xrm/designer/setting" value="1.0">
+	<meta name="type" type="xrm/designer/setting" value="marketing-designer-content-editor-document">
+	<meta datatype="color" label="Email Background" name="outer-background" type="xrm/designer/setting" value="#FFFFFF">
+	<meta datatype="color" label="Inner Background" name="inner-background" type="xrm/designer/setting" value="#F2F2F2">
+	<meta datatype="picture" label="Hero Image" name="hero-image" type="xrm/designer/setting" value="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/PlaceholderIcons/600x426.png">
+	<meta datatype="number" label="Hero Image Height" name="hero-image-height" type="xrm/designer/setting" value="426">
+	<meta datatype="color" label="Hero Image Background Color" name="hero-image-bgcolor" type="xrm/designer/setting" value="#282828">
+	<meta datatype="font" label="Font Family" name="font-family" type="xrm/designer/setting" value="Verdana, Arial, sans-serif">
+	<meta datatype="text" label="Body Font Size" name="body-text-size" type="xrm/designer/setting" value="15px">
+	<meta datatype="color" label="Body Text Color" name="body-text-color" type="xrm/designer/setting" value="#000">
+	<meta datatype="color" label="Color 1" name="color1" type="xrm/designer/setting" value="#863900">
+	<meta datatype="color" label="Color 2" name="color2" type="xrm/designer/setting" value="#46720b">
+	<meta datatype="color" label="Color 3" name="color3" type="xrm/designer/setting" value="#E1E1E1">
+	<meta datatype="color" label="Color 4" name="color4" type="xrm/designer/setting" value="#136485">
+	<meta datatype="text" group="style" label="Direction" name="html-direction" type="xrm/designer/setting" value="ltr">
+	<style>
+		.wrapper {
+			width: 100%;
+		}
+
+		#outlook a {
+			padding: 0;
+		}
+
+		body {
+			width: 100% !important;
+			min-width: 100%;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			Margin: 0;
+			padding: 0;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.ExternalClass {
+			width: 100%;
+		}
+
+		.ExternalClass,
+		.ExternalClass p,
+		.ExternalClass span,
+		.ExternalClass font,
+		.ExternalClass td,
+		.ExternalClass div {
+			line-height: 100%;
+		}
+
+		#backgroundTable {
+			margin: 0;
+			Margin: 0;
+			padding: 0;
+			width: 100% !important;
+			line-height: 100% !important;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			-ms-interpolation-mode: bicubic;
+			width: auto;
+			max-width: 100%;
+			clear: both;
+			display: block;
+		}
+
+		center {
+			width: 100%;
+			min-width: 600px;
+		}
+
+		a img {
+			border: none;
+		}
+
+		p {
+			margin: 0 0 0 10px;
+			Margin: 0 0 0 10px;
+		}
+
+		table {
+			border-spacing: 0;
+			border-collapse: collapse;
+		}
+
+		td {
+			word-wrap: break-word;
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			hyphens: auto;
+			border-collapse: collapse !important;
+		}
+
+		table,
+		tr,
+		td {
+			padding: 0;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		@media only screen {
+			html {
+				min-height: 100%;
+				background: #f3f3f3;
+			}
+		}
+
+		table.body {
+			background: #f3f3f3;
+			height: 100%;
+			width: 100%;
+		}
+
+		table.container {
+			background: #fefefe;
+			width: 600px;
+			margin: 0 auto;
+			Margin: 0 auto;
+			text-align: inherit;
+		}
+
+		table.row {
+			padding: 0;
+			width: 100%;
+			position: relative;
+		}
+
+		table.container table.row {
+			display: table;
+		}
+
+		td.columns,
+		td.column,
+		th.columns,
+		th.column {
+			margin: 0 auto;
+			Margin: 0 auto;
+			padding-left: 16px;
+			padding-bottom: 16px;
+		}
+
+		td.columns.last,
+		td.column.last,
+		th.columns.last,
+		th.column.last {
+			padding-right: 16px;
+		}
+
+		td.columns table,
+		td.column table,
+		th.columns table,
+		th.column table {
+			width: 100%;
+		}
+
+		td.large-1,
+		th.large-1 {
+			width: 34px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-1.first,
+		th.large-1.first {
+			padding-left: 16px;
+		}
+
+		td.large-1.last,
+		th.large-1.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-1,
+		.collapse>tbody>tr>th.large-1 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 50px;
+		}
+
+		.collapse td.large-1.first,
+		.collapse th.large-1.first,
+		.collapse td.large-1.last,
+		.collapse th.large-1.last {
+			width: 58px;
+		}
+
+		td.large-2,
+		th.large-2 {
+			width: 84px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-2.first,
+		th.large-2.first {
+			padding-left: 16px;
+		}
+
+		td.large-2.last,
+		th.large-2.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-2,
+		.collapse>tbody>tr>th.large-2 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 100px;
+		}
+
+		.collapse td.large-2.first,
+		.collapse th.large-2.first,
+		.collapse td.large-2.last,
+		.collapse th.large-2.last {
+			width: 108px;
+		}
+
+		td.large-3,
+		th.large-3 {
+			width: 134px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-3.first,
+		th.large-3.first {
+			padding-left: 16px;
+		}
+
+		td.large-3.last,
+		th.large-3.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-3,
+		.collapse>tbody>tr>th.large-3 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 150px;
+		}
+
+		.collapse td.large-3.first,
+		.collapse th.large-3.first,
+		.collapse td.large-3.last,
+		.collapse th.large-3.last {
+			width: 158px;
+		}
+
+		td.large-4,
+		th.large-4 {
+			width: 184px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-4.first,
+		th.large-4.first {
+			padding-left: 16px;
+		}
+
+		td.large-4.last,
+		th.large-4.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-4,
+		.collapse>tbody>tr>th.large-4 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 200px;
+		}
+
+		.collapse td.large-4.first,
+		.collapse th.large-4.first,
+		.collapse td.large-4.last,
+		.collapse th.large-4.last {
+			width: 208px;
+		}
+
+		td.large-5,
+		th.large-5 {
+			width: 234px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-5.first,
+		th.large-5.first {
+			padding-left: 16px;
+		}
+
+		td.large-5.last,
+		th.large-5.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-5,
+		.collapse>tbody>tr>th.large-5 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 250px;
+		}
+
+		.collapse td.large-5.first,
+		.collapse th.large-5.first,
+		.collapse td.large-5.last,
+		.collapse th.large-5.last {
+			width: 258px;
+		}
+
+		td.large-6,
+		th.large-6 {
+			width: 284px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-6.first,
+		th.large-6.first {
+			padding-left: 16px;
+		}
+
+		td.large-6.last,
+		th.large-6.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-6,
+		.collapse>tbody>tr>th.large-6 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 300px;
+		}
+
+		.collapse td.large-6.first,
+		.collapse th.large-6.first,
+		.collapse td.large-6.last,
+		.collapse th.large-6.last {
+			width: 308px;
+		}
+
+		td.large-7,
+		th.large-7 {
+			width: 334px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-7.first,
+		th.large-7.first {
+			padding-left: 16px;
+		}
+
+		td.large-7.last,
+		th.large-7.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-7,
+		.collapse>tbody>tr>th.large-7 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 350px;
+		}
+
+		.collapse td.large-7.first,
+		.collapse th.large-7.first,
+		.collapse td.large-7.last,
+		.collapse th.large-7.last {
+			width: 358px;
+		}
+
+		td.large-8,
+		th.large-8 {
+			width: 384px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-8.first,
+		th.large-8.first {
+			padding-left: 16px;
+		}
+
+		td.large-8.last,
+		th.large-8.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-8,
+		.collapse>tbody>tr>th.large-8 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 400px;
+		}
+
+		.collapse td.large-8.first,
+		.collapse th.large-8.first,
+		.collapse td.large-8.last,
+		.collapse th.large-8.last {
+			width: 408px;
+		}
+
+		td.large-9,
+		th.large-9 {
+			width: 434px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-9.first,
+		th.large-9.first {
+			padding-left: 16px;
+		}
+
+		td.large-9.last,
+		th.large-9.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-9,
+		.collapse>tbody>tr>th.large-9 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 450px;
+		}
+
+		.collapse td.large-9.first,
+		.collapse th.large-9.first,
+		.collapse td.large-9.last,
+		.collapse th.large-9.last {
+			width: 458px;
+		}
+
+		td.large-10,
+		th.large-10 {
+			width: 484px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-10.first,
+		th.large-10.first {
+			padding-left: 16px;
+		}
+
+		td.large-10.last,
+		th.large-10.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-10,
+		.collapse>tbody>tr>th.large-10 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 500px;
+		}
+
+		.collapse td.large-10.first,
+		.collapse th.large-10.first,
+		.collapse td.large-10.last,
+		.collapse th.large-10.last {
+			width: 508px;
+		}
+
+		td.large-11,
+		th.large-11 {
+			width: 534px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-11.first,
+		th.large-11.first {
+			padding-left: 16px;
+		}
+
+		td.large-11.last,
+		th.large-11.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-11,
+		.collapse>tbody>tr>th.large-11 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 550px;
+		}
+
+		.collapse td.large-11.first,
+		.collapse th.large-11.first,
+		.collapse td.large-11.last,
+		.collapse th.large-11.last {
+			width: 558px;
+		}
+
+		td.large-12,
+		th.large-12 {
+			width: 584px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		td.large-12.first,
+		th.large-12.first {
+			padding-left: 16px;
+		}
+
+		td.large-12.last,
+		th.large-12.last {
+			padding-right: 16px;
+		}
+
+		.collapse>tbody>tr>td.large-12,
+		.collapse>tbody>tr>th.large-12 {
+			padding-right: 0;
+			padding-left: 0;
+			width: 600px;
+		}
+
+		.collapse td.large-12.first,
+		.collapse th.large-12.first,
+		.collapse td.large-12.last,
+		.collapse th.large-12.last {
+			width: 608px;
+		}
+
+		td.large-1 center,
+		th.large-1 center {
+			min-width: 2px;
+		}
+
+		td.large-2 center,
+		th.large-2 center {
+			min-width: 52px;
+		}
+
+		td.large-3 center,
+		th.large-3 center {
+			min-width: 102px;
+		}
+
+		td.large-4 center,
+		th.large-4 center {
+			min-width: 152px;
+		}
+
+		td.large-5 center,
+		th.large-5 center {
+			min-width: 202px;
+		}
+
+		td.large-6 center,
+		th.large-6 center {
+			min-width: 252px;
+		}
+
+		td.large-7 center,
+		th.large-7 center {
+			min-width: 302px;
+		}
+
+		td.large-8 center,
+		th.large-8 center {
+			min-width: 352px;
+		}
+
+		td.large-9 center,
+		th.large-9 center {
+			min-width: 402px;
+		}
+
+		td.large-10 center,
+		th.large-10 center {
+			min-width: 452px;
+		}
+
+		td.large-11 center,
+		th.large-11 center {
+			min-width: 502px;
+		}
+
+		td.large-12 center,
+		th.large-12 center {
+			min-width: 552px;
+		}
+
+		.body .columns td.large-1,
+		.body .column td.large-1,
+		.body .columns th.large-1,
+		.body .column th.large-1 {
+			width: 8.33333%;
+		}
+
+		.body .columns td.large-2,
+		.body .column td.large-2,
+		.body .columns th.large-2,
+		.body .column th.large-2 {
+			width: 16.66667%;
+		}
+
+		.body .columns td.large-3,
+		.body .column td.large-3,
+		.body .columns th.large-3,
+		.body .column th.large-3 {
+			width: 25%;
+		}
+
+		.body .columns td.large-4,
+		.body .column td.large-4,
+		.body .columns th.large-4,
+		.body .column th.large-4 {
+			width: 33.33333%;
+		}
+
+		.body .columns td.large-5,
+		.body .column td.large-5,
+		.body .columns th.large-5,
+		.body .column th.large-5 {
+			width: 41.66667%;
+		}
+
+		.body .columns td.large-6,
+		.body .column td.large-6,
+		.body .columns th.large-6,
+		.body .column th.large-6 {
+			width: 50%;
+		}
+
+		.body .columns td.large-7,
+		.body .column td.large-7,
+		.body .columns th.large-7,
+		.body .column th.large-7 {
+			width: 58.33333%;
+		}
+
+		.body .columns td.large-8,
+		.body .column td.large-8,
+		.body .columns th.large-8,
+		.body .column th.large-8 {
+			width: 66.66667%;
+		}
+
+		.body .columns td.large-9,
+		.body .column td.large-9,
+		.body .columns th.large-9,
+		.body .column th.large-9 {
+			width: 75%;
+		}
+
+		.body .columns td.large-10,
+		.body .column td.large-10,
+		.body .columns th.large-10,
+		.body .column th.large-10 {
+			width: 83.33333%;
+		}
+
+		.body .columns td.large-11,
+		.body .column td.large-11,
+		.body .columns th.large-11,
+		.body .column th.large-11 {
+			width: 91.66667%;
+		}
+
+		.body .columns td.large-12,
+		.body .column td.large-12,
+		.body .columns th.large-12,
+		.body .column th.large-12 {
+			width: 100%;
+		}
+
+		td.large-offset-1,
+		td.large-offset-1.first,
+		td.large-offset-1.last,
+		th.large-offset-1,
+		th.large-offset-1.first,
+		th.large-offset-1.last {
+			padding-left: 66px;
+		}
+
+		td.large-offset-2,
+		td.large-offset-2.first,
+		td.large-offset-2.last,
+		th.large-offset-2,
+		th.large-offset-2.first,
+		th.large-offset-2.last {
+			padding-left: 116px;
+		}
+
+		td.large-offset-3,
+		td.large-offset-3.first,
+		td.large-offset-3.last,
+		th.large-offset-3,
+		th.large-offset-3.first,
+		th.large-offset-3.last {
+			padding-left: 166px;
+		}
+
+		td.large-offset-4,
+		td.large-offset-4.first,
+		td.large-offset-4.last,
+		th.large-offset-4,
+		th.large-offset-4.first,
+		th.large-offset-4.last {
+			padding-left: 216px;
+		}
+
+		td.large-offset-5,
+		td.large-offset-5.first,
+		td.large-offset-5.last,
+		th.large-offset-5,
+		th.large-offset-5.first,
+		th.large-offset-5.last {
+			padding-left: 266px;
+		}
+
+		td.large-offset-6,
+		td.large-offset-6.first,
+		td.large-offset-6.last,
+		th.large-offset-6,
+		th.large-offset-6.first,
+		th.large-offset-6.last {
+			padding-left: 316px;
+		}
+
+		td.large-offset-7,
+		td.large-offset-7.first,
+		td.large-offset-7.last,
+		th.large-offset-7,
+		th.large-offset-7.first,
+		th.large-offset-7.last {
+			padding-left: 366px;
+		}
+
+		td.large-offset-8,
+		td.large-offset-8.first,
+		td.large-offset-8.last,
+		th.large-offset-8,
+		th.large-offset-8.first,
+		th.large-offset-8.last {
+			padding-left: 416px;
+		}
+
+		td.large-offset-9,
+		td.large-offset-9.first,
+		td.large-offset-9.last,
+		th.large-offset-9,
+		th.large-offset-9.first,
+		th.large-offset-9.last {
+			padding-left: 466px;
+		}
+
+		td.large-offset-10,
+		td.large-offset-10.first,
+		td.large-offset-10.last,
+		th.large-offset-10,
+		th.large-offset-10.first,
+		th.large-offset-10.last {
+			padding-left: 516px;
+		}
+
+		td.large-offset-11,
+		td.large-offset-11.first,
+		td.large-offset-11.last,
+		th.large-offset-11,
+		th.large-offset-11.first,
+		th.large-offset-11.last {
+			padding-left: 566px;
+		}
+
+		td.expander,
+		th.expander {
+			visibility: hidden;
+			width: 0;
+			padding: 0 !important;
+		}
+
+		.block-grid {
+			width: 100%;
+			max-width: 600px;
+		}
+
+		.block-grid td {
+			display: inline-block;
+			padding: 8px;
+		}
+
+		.up-2 td {
+			width: 284px !important;
+		}
+
+		.up-3 td {
+			width: 184px !important;
+		}
+
+		.up-4 td {
+			width: 134px !important;
+		}
+
+		.up-5 td {
+			width: 104px !important;
+		}
+
+		.up-6 td {
+			width: 84px !important;
+		}
+
+		.up-7 td {
+			width: 69px !important;
+		}
+
+		.up-8 td {
+			width: 59px !important;
+		}
+
+		table.text-center,
+		td.text-center,
+		h1.text-center,
+		h2.text-center,
+		h3.text-center,
+		h4.text-center,
+		h5.text-center,
+		h6.text-center,
+		p.text-center,
+		span.text-center {
+			text-align: center;
+		}
+
+		h1.text-left,
+		h2.text-left,
+		h3.text-left,
+		h4.text-left,
+		h5.text-left,
+		h6.text-left,
+		p.text-left,
+		span.text-left {
+			text-align: left;
+		}
+
+		h1.text-right,
+		h2.text-right,
+		h3.text-right,
+		h4.text-right,
+		h5.text-right,
+		h6.text-right,
+		p.text-right,
+		span.text-right {
+			text-align: right;
+		}
+
+		span.text-center {
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+
+		@media only screen and (max-width: 616px) {
+			.small-float-center {
+				margin: 0 auto !important;
+				float: none !important;
+				text-align: center !important;
+			}
+			.small-text-center {
+				text-align: center !important;
+			}
+			.small-text-left {
+				text-align: left !important;
+			}
+			.small-text-right {
+				text-align: right !important;
+			}
+		}
+
+		img.float-left {
+			float: left;
+			text-align: left;
+		}
+
+		img.float-right {
+			float: right;
+			text-align: right;
+		}
+
+		img.float-center,
+		img.text-center {
+			margin: 0 auto;
+			Margin: 0 auto;
+			float: none;
+			text-align: center;
+		}
+
+		table.float-center,
+		td.float-center,
+		th.float-center {
+			margin: 0 auto;
+			Margin: 0 auto;
+			float: none;
+			text-align: center;
+		}
+
+		table.body table.container .hide-for-large {
+			display: none;
+			width: 0;
+			mso-hide: all;
+			overflow: hidden;
+			max-height: 0px;
+			font-size: 0;
+			width: 0px;
+			line-height: 0;
+		}
+
+		@media only screen and (max-width: 616px) {
+			table.body table.container .hide-for-large {
+				display: block !important;
+				width: auto !important;
+				overflow: visible !important;
+			}
+		}
+
+		table.body table.container .hide-for-large * {
+			mso-hide: all;
+		}
+
+		@media only screen and (max-width: 616px) {
+			table.body table.container .row.hide-for-large,
+			table.body table.container .row.hide-for-large {
+				display: table !important;
+				width: 100% !important;
+			}
+		}
+
+		@media only screen and (max-width: 616px) {
+			table.body table.container .show-for-large {
+				display: none !important;
+				width: 0;
+				mso-hide: all;
+				overflow: hidden;
+			}
+		}
+
+		body,
+		table.body,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		td,
+		th,
+		a {
+			color: #0a0a0a;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: normal;
+			padding: 0;
+			margin: 0;
+			Margin: 0;
+			text-align: left;
+			line-height: 1.45;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: inherit;
+			word-wrap: normal;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-bottom: 10px;
+		}
+
+		h1 {
+			font-size: 34px;
+		}
+
+		h2 {
+			font-size: 30px;
+		}
+
+		h3 {
+			font-size: 28px;
+		}
+
+		h4 {
+			font-size: 24px;
+		}
+
+		h5 {
+			font-size: 20px;
+		}
+
+		h6 {
+			font-size: 18px;
+		}
+
+		body,
+		table.body,
+		p,
+		td,
+		th {
+			font-size: 16px;
+			line-height: 19px;
+		}
+
+		p {
+			margin-bottom: 10px;
+			margin-bottom: 10px;
+		}
+
+		p.lead {
+			font-size: 20px;
+			line-height: 1.6;
+		}
+
+		p.subheader {
+			margin-top: 4px;
+			margin-bottom: 8px;
+			margin-top: 4px;
+			margin-bottom: 8px;
+			font-weight: normal;
+			line-height: 1.4;
+			color: #8a8a8a;
+		}
+
+		small {
+			font-size: 80%;
+			color: #cacaca;
+		}
+
+		a {
+			color: #2199e8;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #147dc2;
+		}
+
+		a:active {
+			color: #147dc2;
+		}
+
+		a:visited {
+			color: #2199e8;
+		}
+
+		h1 a,
+		h1 a:visited,
+		h2 a,
+		h2 a:visited,
+		h3 a,
+		h3 a:visited,
+		h4 a,
+		h4 a:visited,
+		h5 a,
+		h5 a:visited,
+		h6 a,
+		h6 a:visited {
+			color: #2199e8;
+		}
+
+		pre {
+			background: #f3f3f3;
+			margin: 30px 0;
+			Margin: 30px 0;
+		}
+
+		pre code {
+			color: #cacaca;
+		}
+
+		pre code span.callout {
+			color: #8a8a8a;
+			font-weight: bold;
+		}
+
+		pre code span.callout-strong {
+			color: #ff6908;
+			font-weight: bold;
+		}
+
+		hr {
+			max-width: 600px;
+			height: 0;
+			border-right: 0;
+			border-top: 0;
+			border-bottom: 1px solid #cacaca;
+			border-left: 0;
+			margin: 20px auto;
+			Margin: 20px auto;
+			clear: both;
+		}
+
+		.stat {
+			font-size: 40px;
+			line-height: 1;
+		}
+
+		p+.stat {
+			margin-top: -16px;
+			margin-top: -16px;
+		}
+
+		table.buttonClass {
+			width: auto !important;
+			margin: 0 0 16px 0;
+			Margin: 0 0 16px 0;
+		}
+
+		table.buttonClass table td {
+			text-align: left;
+			color: #fefefe;
+			background: #2199e8;
+			border: 2px solid #2199e8;
+		}
+
+		table.buttonClass table td a {
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+			color: #fefefe;
+			text-decoration: none;
+			display: inline-block;
+			padding: 8px 16px 8px 16px;
+			border: 0px solid #2199e8;
+			border-radius: 3px;
+		}
+
+		table.buttonClass.radius table td {
+			border-radius: 3px;
+			border: none;
+		}
+
+		table.buttonClass.rounded table td {
+			border-radius: 500px;
+			border: none;
+		}
+
+		table.buttonClass:hover table tr td a,
+		table.buttonClass:active table tr td a,
+		table.buttonClass table tr td a:visited,
+		table.buttonClass.tiny:hover table tr td a,
+		table.buttonClass.tiny:active table tr td a,
+		table.buttonClass.tiny table tr td a:visited,
+		table.buttonClass.small:hover table tr td a,
+		table.buttonClass.small:active table tr td a,
+		table.buttonClass.small table tr td a:visited,
+		table.buttonClass.large:hover table tr td a,
+		table.buttonClass.large:active table tr td a,
+		table.buttonClass.large table tr td a:visited {
+			color: #fefefe;
+		}
+
+		table.buttonClass.tiny table td,
+		table.buttonClass.tiny table a {
+			padding: 4px 8px 4px 8px;
+		}
+
+		table.buttonClass.tiny table a {
+			font-size: 10px;
+			font-weight: normal;
+		}
+
+		table.buttonClass.small table td,
+		table.buttonClass.small table a {
+			padding: 5px 10px 5px 10px;
+			font-size: 12px;
+		}
+
+		table.buttonClass.large table a {
+			padding: 10px 20px 10px 20px;
+			font-size: 20px;
+		}
+
+		table.buttonClass.expand,
+		table.buttonClass.expanded {
+			width: 100% !important;
+		}
+
+		table.buttonClass.expand table,
+		table.buttonClass.expanded table {
+			width: 100%;
+		}
+
+		table.buttonClass.expand table a,
+		table.buttonClass.expanded table a {
+			text-align: center;
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		table.buttonClass.expand center,
+		table.buttonClass.expanded center {
+			min-width: 0;
+		}
+
+		table.buttonClass:hover table td,
+		table.buttonClass:visited table td,
+		table.buttonClass:active table td {
+			background: #147dc2;
+			color: #fefefe;
+		}
+
+		table.buttonClass:hover table a,
+		table.buttonClass:visited table a,
+		table.buttonClass:active table a {
+			border: 0px solid #147dc2;
+		}
+
+		table.buttonClass.secondary table td {
+			background: #777777;
+			color: #fefefe;
+			border: 2px solid #777777;
+		}
+
+		table.buttonClass.secondary table a {
+			color: #fefefe;
+			border: 0px solid #777777;
+		}
+
+		table.buttonClass.secondary:hover table td {
+			background: #919191;
+			color: #fefefe;
+		}
+
+		table.buttonClass.secondary:hover table a {
+			border: 0px solid #919191;
+		}
+
+		table.buttonClass.secondary:hover table td a {
+			color: #fefefe;
+		}
+
+		table.buttonClass.secondary:active table td a {
+			color: #fefefe;
+		}
+
+		table.buttonClass.secondary table td a:visited {
+			color: #fefefe;
+		}
+
+		table.buttonClass.success table td {
+			background: #3adb76;
+			border: 2px solid #3adb76;
+		}
+
+		table.buttonClass.success table a {
+			border: 0px solid #3adb76;
+		}
+
+		table.buttonClass.success:hover table td {
+			background: #23bf5d;
+		}
+
+		table.buttonClass.success:hover table a {
+			border: 0px solid #23bf5d;
+		}
+
+		table.buttonClass.alert table td {
+			background: #ec5840;
+			border: 2px solid #ec5840;
+		}
+
+		table.buttonClass.alert table a {
+			border: 0px solid #ec5840;
+		}
+
+		table.buttonClass.alert:hover table td {
+			background: #e23317;
+		}
+
+		table.buttonClass.alert:hover table a {
+			border: 0px solid #e23317;
+		}
+
+		table.callout {
+			margin-bottom: 16px;
+			margin-bottom: 16px;
+		}
+
+		th.callout-inner {
+			width: 100%;
+			border: 1px solid #cbcbcb;
+			padding: 10px;
+			background: #fefefe;
+		}
+
+		th.callout-inner.primary {
+			background: #def0fc;
+			border: 1px solid #444444;
+			color: #0a0a0a;
+		}
+
+		th.callout-inner.secondary {
+			background: #ebebeb;
+			border: 1px solid #444444;
+			color: #0a0a0a;
+		}
+
+		th.callout-inner.success {
+			background: #e1faea;
+			border: 1px solid #1b9448;
+			color: #fefefe;
+		}
+
+		th.callout-inner.warning {
+			background: #fff3d9;
+			border: 1px solid #996800;
+			color: #fefefe;
+		}
+
+		th.callout-inner.alert {
+			background: #fce6e2;
+			border: 1px solid #b42912;
+			color: #fefefe;
+		}
+
+		.thumbnail {
+			border: solid 4px #fefefe;
+			box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+			display: inline-block;
+			line-height: 0;
+			max-width: 100%;
+			transition: box-shadow 200ms ease-out;
+			border-radius: 3px;
+			margin-bottom: 16px;
+		}
+
+		.thumbnail:hover,
+		.thumbnail:focus {
+			box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
+		}
+
+		table.menu {
+			width: 600px;
+		}
+
+		table.menu td.menu-item,
+		table.menu th.menu-item {
+			padding: 10px;
+			padding-right: 10px;
+		}
+
+		table.menu td.menu-item a,
+		table.menu th.menu-item a {
+			color: #2199e8;
+		}
+
+		table.menu.vertical td.menu-item,
+		table.menu.vertical th.menu-item {
+			padding: 10px;
+			padding-right: 0;
+			display: block;
+		}
+
+		table.menu.vertical td.menu-item a,
+		table.menu.vertical th.menu-item a {
+			width: 100%;
+		}
+
+		table.menu.vertical td.menu-item table.menu.vertical td.menu-item,
+		table.menu.vertical td.menu-item table.menu.vertical th.menu-item,
+		table.menu.vertical th.menu-item table.menu.vertical td.menu-item,
+		table.menu.vertical th.menu-item table.menu.vertical th.menu-item {
+			padding-left: 10px;
+		}
+
+		table.menu.text-center a {
+			text-align: center;
+		}
+
+		.menu[align="center"] {
+			width: auto !important;
+		}
+
+		body.outlook p {
+			display: inline !important;
+		}
+
+		@media only screen and (max-width: 616px) {
+			table.body img {
+				width: auto !important;
+				height: auto !important;
+			}
+			table.body center {
+				min-width: 0 !important;
+			}
+			table.body .container {
+				width: 95% !important;
+			}
+			table.body .columns,
+			table.body .column {
+				height: auto !important;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				padding-left: 16px !important;
+				padding-right: 16px !important;
+			}
+			table.body .columns .column,
+			table.body .columns .columns,
+			table.body .column .column,
+			table.body .column .columns {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+			table.body .collapse .columns,
+			table.body .collapse .column {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+			td.small-1,
+			th.small-1 {
+				display: inline-block !important;
+				width: 8.33333% !important;
+			}
+			td.small-2,
+			th.small-2 {
+				display: inline-block !important;
+				width: 16.66667% !important;
+			}
+			td.small-3,
+			th.small-3 {
+				display: inline-block !important;
+				width: 25% !important;
+			}
+			td.small-4,
+			th.small-4 {
+				display: inline-block !important;
+				width: 33.33333% !important;
+			}
+			td.small-5,
+			th.small-5 {
+				display: inline-block !important;
+				width: 41.66667% !important;
+			}
+			td.small-6,
+			th.small-6 {
+				display: inline-block !important;
+				width: 50% !important;
+			}
+			td.small-7,
+			th.small-7 {
+				display: inline-block !important;
+				width: 58.33333% !important;
+			}
+			td.small-8,
+			th.small-8 {
+				display: inline-block !important;
+				width: 66.66667% !important;
+			}
+			td.small-9,
+			th.small-9 {
+				display: inline-block !important;
+				width: 75% !important;
+			}
+			td.small-10,
+			th.small-10 {
+				display: inline-block !important;
+				width: 83.33333% !important;
+			}
+			td.small-11,
+			th.small-11 {
+				display: inline-block !important;
+				width: 91.66667% !important;
+			}
+			td.small-12,
+			th.small-12 {
+				display: inline-block !important;
+				width: 100% !important;
+			}
+			.columns td.small-12,
+			.column td.small-12,
+			.columns th.small-12,
+			.column th.small-12 {
+				display: block !important;
+				width: 100% !important;
+			}
+			table.body td.small-offset-1,
+			table.body th.small-offset-1 {
+				margin-left: 8.33333% !important;
+				Margin-left: 8.33333% !important;
+			}
+			table.body td.small-offset-2,
+			table.body th.small-offset-2 {
+				margin-left: 16.66667% !important;
+				Margin-left: 16.66667% !important;
+			}
+			table.body td.small-offset-3,
+			table.body th.small-offset-3 {
+				margin-left: 25% !important;
+				Margin-left: 25% !important;
+			}
+			table.body td.small-offset-4,
+			table.body th.small-offset-4 {
+				margin-left: 33.33333% !important;
+				Margin-left: 33.33333% !important;
+			}
+			table.body td.small-offset-5,
+			table.body th.small-offset-5 {
+				margin-left: 41.66667% !important;
+				Margin-left: 41.66667% !important;
+			}
+			table.body td.small-offset-6,
+			table.body th.small-offset-6 {
+				margin-left: 50% !important;
+				Margin-left: 50% !important;
+			}
+			table.body td.small-offset-7,
+			table.body th.small-offset-7 {
+				margin-left: 58.33333% !important;
+				Margin-left: 58.33333% !important;
+			}
+			table.body td.small-offset-8,
+			table.body th.small-offset-8 {
+				margin-left: 66.66667% !important;
+				Margin-left: 66.66667% !important;
+			}
+			table.body td.small-offset-9,
+			table.body th.small-offset-9 {
+				margin-left: 75% !important;
+				Margin-left: 75% !important;
+			}
+			table.body td.small-offset-10,
+			table.body th.small-offset-10 {
+				margin-left: 83.33333% !important;
+				Margin-left: 83.33333% !important;
+			}
+			table.body td.small-offset-11,
+			table.body th.small-offset-11 {
+				margin-left: 91.66667% !important;
+				Margin-left: 91.66667% !important;
+			}
+			table.body table.columns td.expander,
+			table.body table.columns th.expander {
+				display: none !important;
+			}
+			table.body .right-text-pad,
+			table.body .text-pad-right {
+				padding-left: 10px !important;
+			}
+			table.body .left-text-pad,
+			table.body .text-pad-left {
+				padding-right: 10px !important;
+			}
+			table.menu {
+				width: 100% !important;
+			}
+			table.menu td,
+			table.menu th {
+				width: auto !important;
+				display: inline-block !important;
+			}
+			table.menu.vertical td,
+			table.menu.vertical th,
+			table.menu.small-vertical td,
+			table.menu.small-vertical th {
+				display: block !important;
+			}
+			table.menu[align="center"] {
+				width: auto !important;
+			}
+		}
+		/* Backgrounds */
+
+		table.body {
+			background-color: /* @outer-background */
+			#ffffff/* @outer-background */
+			;
+		}
+
+		p {
+			margin-bottom: 0;
+			line-height: normal;
+		}
+
+		.no-margin {
+			margin-top: 0 !important;
+			margin-right: 0 !important;
+			margin-bottom: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		.no-padding {
+			padding-top: 0 !important;
+			padding-right: 0 !important;
+			padding-bottom: 0 !important;
+			padding-left: 0 !important;
+		}
+
+		.centralRow th.large-12.columns {
+			width: 500px;
+			padding-right: 50px;
+			padding-left: 50px;
+			padding-bottom: 0;
+		}
+
+		.background-header {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+		}
+
+		.background-header table,
+		.background-header td,
+		.background-header tr {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+		}
+
+		.background-body {
+			background-color: /* @outer-background */
+			#ffffff/* @outer-background */
+			;
+		}
+
+		.background-body table,
+		.background-body td,
+		.background-body tr {
+			background-color: /* @outer-background */
+			#ffffff/* @outer-background */
+			;
+		}
+
+		.background-primary {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+		}
+
+		.background-primary table,
+		.background-primary td,
+		.background-primary tr {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+		}
+
+		.background-banner {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+		}
+
+		.background-banner table,
+		.background-banner td,
+		.background-banner tr {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+		}
+
+		.background-footer {
+			background-color: /* @color3 */
+			#e1e1e1/* @color3 */
+			;
+		}
+
+		.background-footer table,
+		.background-footer td,
+		.background-footer tr {
+			background-color: /* @color3 */
+			#e1e1e1/* @color3 */
+			;
+		}
+
+		.buttonClass {
+			background-color: /* @inner-background */
+			#f2f2f2/* @inner-background */
+			;
+			border: 2px solid/* @color1 */
+			#863900/* @color1 */
+			;
+			color: /* @body-text-color */
+			/* @color1 */
+			#863900/* @color1 */
+			/* @body-text-color */
+			;
+			display: block;
+			font-family: /* @font-family */
+			Tahoma, Arial, Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			14px/* @body-text-size */
+			;
+			line-height: 38px;
+			margin: 0 auto;
+			font-weight: bold;
+			text-align: center;
+			text-decoration: none;
+			width: 250px;
+			-webkit-text-size-adjust: none;
+			mso-hide: all;
+		}
+
+		.buttonClass:visited {
+			color: /* @body-text-color */
+			/* @color1 */
+			#863900/* @color1 */
+			/* @body-text-color */
+			;
+		}
+
+		.headerContainer .headerRow th.columns {
+			padding-left: 10px;
+			padding-bottom: 0;
+		}
+
+		.headerContainer .headerRow .subject p {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#000000/* @body-text-color */
+			;
+			text-align: left;
+			font-weight: bold;
+		}
+
+		.headerContainer .headerRow .viewInBrowser p {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#000000/* @body-text-color */
+			;
+			text-align: right;
+			font-weight: bold;
+		}
+
+		.headerContainer .headerRow .viewInBrowser p a {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#000000/* @body-text-color */
+			;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+
+		.bannerContainer .centralRow th.centralColumn.large-12.columns {
+			padding-right: 47px;
+			padding-left: 47px;
+		}
+
+		.bannerContainer .centralRow .contentRow th.large-12.columns {
+			padding-right: 30px;
+			padding-left: 30px;
+			width: 440px;
+		}
+
+		.bannerContainer .centralContent {
+			border: 3px solid/* @color3 */
+			#e1e1e1/* @color3 */
+			;
+		}
+
+		.bannerContainer .image img {
+			border-bottom: 5px solid/* @color1 */
+			#863900/* @color1 */
+			;
+			margin: 0 auto;
+		}
+
+		.bannerContainer .title p {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			21px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			/* @color1 */
+			#863900/* @color1 */
+			/* @body-text-color */
+			;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.bannerContainer .description p {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			14px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#666666/* @body-text-color */
+			;
+			text-align: center;
+		}
+
+		.primaryContainer .article th.imageColumn.columns {
+			padding-left: 0;
+			padding-right: 0;
+			width: 266px;
+		}
+
+		.primaryContainer .article th.contentColumn.columns {
+			width: 219px;
+			padding-right: 0;
+			padding-left: 15px;
+		}
+
+		.primaryContainer .article .image img {
+			border-right: 8px solid/* @color2 */
+			#46720b/* @color2 */
+			;
+			border-left: 8px solid/* @color2 */
+			#46720b/* @color2 */
+			;
+		}
+
+		.primaryContainer .article .image.image-secondary img {
+			border-right: 8px solid/* @color4 */
+			#136485/* @color4 */
+			;
+			border-left: 8px solid/* @color4 */
+			#136485/* @color4 */
+			;
+		}
+
+		.primaryContainer .article p {
+			margin-bottom: 5px;
+		}
+
+		.primaryContainer .article .title p {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			12px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			/* @color2 */
+			#46720b/* @color2 */
+			/* @body-text-color */
+			;
+			text-align: left;
+			line-height: 15px;
+			font-weight: bold;
+			margin-bottom: 1px;
+		}
+
+		.primaryContainer .article .title.title-secondary p {
+			color: /* @body-text-color */
+			/* @color4 */
+			#136485/* @color4 */
+			/* @body-text-color */
+			;
+		}
+
+		.primaryContainer .article .date p {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#666666/* @body-text-color */
+			;
+			text-align: left;
+			line-height: 20px;
+		}
+
+		.primaryContainer .article .description p {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#666666/* @body-text-color */
+			;
+			text-align: left;
+			line-height: 15px;
+		}
+
+		.primaryContainer .article .callToAction p {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			12px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#000000/* @body-text-color */
+			;
+			font-weight: bold;
+			line-height: normal;
+		}
+
+		.primaryContainer .article .callToAction p a {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			12px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			/* @color1 */
+			#863900/* @color1 */
+			/* @body-text-color */
+			;
+			text-align: left;
+			font-weight: bold;
+			text-decoration: underline;
+			line-height: normal;
+		}
+
+		.primaryContainer .article .sponsor p {
+			font-family: /* @font-family */
+			Arial/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#666666/* @body-text-color */
+			;
+			text-align: left;
+			line-height: 14px;
+			font-style: italic;
+		}
+
+		.primaryContainer .title p {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			18px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#666666/* @body-text-color */
+			;
+			text-align: center;
+		}
+
+		.footerContainer .socialRow th.columns {
+			width: 30px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.footerContainer .socialRow th.columns.first {
+			padding-left: 240px;
+			padding-right: 0;
+		}
+
+		.footerContainer .socialRow th.columns.last {
+			padding-right: 240px;
+			padding-left: 0;
+		}
+
+		.footerContainer .legal p {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#424242/* @body-text-color */
+			;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+
+		.footerContainer .legal p a {
+			font-family: /* @font-family */
+			Verdana/* @font-family */
+			;
+			font-size: /* @body-text-size */
+			11px/* @body-text-size */
+			;
+			color: /* @body-text-color */
+			#424242/* @body-text-color */
+			;
+			text-align: center;
+			line-height: 18px;
+			text-decoration: none;
+			text-align: center;
+			text-decoration: underline;
+		}
+
+		@media only screen and (max-width: 616px) {
+			th.hide-small {
+				visibility: hidden !important;
+				width: 0 !important;
+				height: 0 !important;
+				display: none !important;
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+				padding-left: 0 !important;
+				margin-top: 0 !important;
+				margin-right: 0 !important;
+				margin-bottom: 0 !important;
+				margin-left: 0 !important;
+			}
+			th .columns.hide-small {
+				visibility: hidden !important;
+				width: 0 !important;
+				height: 0 !important;
+				display: none !important;
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+				padding-left: 0 !important;
+				margin-top: 0 !important;
+				margin-right: 0 !important;
+				margin-bottom: 0 !important;
+				margin-left: 0 !important;
+			}
+			br.hide-small {
+				visibility: hidden !important;
+				width: 0 !important;
+				height: 0 !important;
+				display: none !important;
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+				padding-left: 0 !important;
+				margin-top: 0 !important;
+				margin-right: 0 !important;
+				margin-bottom: 0 !important;
+				margin-left: 0 !important;
+			}
+			.spacer.hide-small {
+				visibility: hidden !important;
+				width: 0 !important;
+				height: 0 !important;
+				display: none !important;
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+				padding-left: 0 !important;
+				margin-top: 0 !important;
+				margin-right: 0 !important;
+				margin-bottom: 0 !important;
+				margin-left: 0 !important;
+			}
+			.mobile-view th.columns,
+			.centralRow th.columns {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+			.mobile-p-fix p {
+				width: calc(100% - 40px);
+				margin-left: 20px !important;
+				margin-right: 20px !important;
+			}
+			.headerContainer p {
+				text-align: center !important;
+				margin-bottom: 5px !important;
+			}
+			.headerContainer .logo img {
+				margin: 0 auto !important;
+			}
+			.headerContainer .menuRow th.menuColumn.columns {
+				padding-bottom: 0 !important;
+			}
+			.primaryContainer img {
+				margin: 0 auto !important;
+			}
+			.primaryContainer p {
+				width: calc(100% - 40px);
+				margin-left: 20px !important;
+				margin-right: 20px !important;
+				text-align: center !important;
+			}
+			.primaryContainer p a {
+				text-align: !important;
+			}
+			.footerContainer .icons-social {
+				margin-bottom: 10px !important;
+			}
+			.footerContainer .legal a {
+				white-space: nowrap;
+			}
+		}
+	</style>
+<meta name="html-editor"></head>
+
+<body><table class="body">
+		<tbody>
+			<tr>
+				<td align="center" class="center" valign="top">
+					<center>
+						<!---Beginning of Section-->
+						<table align="center" class="container headerContainer background-header float-center">
+							<tbody>
+								<tr>
+									<td>
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="container9b12ef7f2c2ae1617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider">
+												<div align="right" class="dividerWrapper" style="padding-top: 10px; padding-bottom: 10px;">
+													<table style="padding: 0px; margin: 0px; width: 100%;">
+														<tbody>
+															<tr style="padding: 0px;">
+																<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																	<p style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+										<!---Beginning of Row-->
+										<table class="row centralRow">
+											<tbody>
+												<tr>
+													<!---Beginning of Column-->
+													<th class="small-12 large-12 columns first last">
+														<table>
+															<tbody>
+																<tr>
+																	<th>
+																		<!---Beginning of Row-->
+																		<table class="row collapse headerRow mobile-view">
+																			<tbody>
+																				<tr>
+																					<!---Beginning of Column-->
+																					<th class="subjectColumn small-12 large-7 columns first">
+																						<table>
+																							<tbody>
+																								<tr>
+																									<th>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer subject mobile-p-fix" data-container="true" id="container0a3624e028f11617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Summer 2017 is here! </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																									</th>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</th>
+																					<!---End of Column-->
+																					<!---Beginning of Column-->
+																					<th class="viewInBrowserColumn small-12 large-5 columns last">
+																						<table>
+																							<tbody>
+																								<tr>
+																									<th>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer viewInBrowser mobile-p-fix" data-container="true" id="container5a1f2996775531617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text"></div>
+																											<div class="" data-editorblocktype="Text"></div>
+																											<div class="" data-editorblocktype="Text">
+																												<p>
+																													<a href="{{Message.ViewAsWebpageURL}}"> View in browser </a>
+																												</p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																									</th>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</th>
+																					<!---End of Column-->
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!---End of Row-->
+																	</th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+												</tr>
+											</tbody>
+										</table>
+										<!---End of Row-->
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="containerf6ef4f4d8cd471617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider">
+												<div align="right" class="dividerWrapper" style="padding-top: 5.5px; padding-bottom: 5.5px;">
+													<table style="padding: 0px; margin: 0px; width: 100%;">
+														<tbody>
+															<tr style="padding: 0px;">
+																<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																	<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+										<center>
+											<!---Beginning of Container-->
+											<div align="center" class="wrapperContainer float-center" data-container="true" id="container8c3bbe41971db1617791345915" style="null">
+												<div class="wrapper" data-editorblocktype="Image"><img alt="logo image" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/LogoImages/logo120x60.png" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"></div>
+											</div>
+											<!---End of Container-->
+										</center>
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="container61100e378984e1617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider">
+												<div align="right" class="dividerWrapper" style="padding-top: 5px; padding-bottom: 5px;">
+													<table style="padding: 0px; margin: 0px; width: 100%;">
+														<tbody>
+															<tr style="padding: 0px;">
+																<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																	<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!---End of Section-->
+						<!---Beginning of Section-->
+						<table align="center" class="container bannerContainer background-banner float-center">
+							<tbody>
+								<tr>
+									<td>
+										<!---Beginning of Row-->
+										<table class="row centralRow mobile-view">
+											<tbody>
+												<tr>
+													<!---Beginning of Column-->
+													<th class="centralColumn small-12 large-12 columns first last">
+														<table class="centralContent">
+															<tbody>
+																<tr>
+																	<th>
+																		<div>
+																			<!---Beginning of Container-->
+																			<div class="wrapperContainer image" data-container="true" id="container5229b57e04e71617791345915" style="null">
+																				<div class="wrapper" data-editorblocktype="Image"><img alt="banner image" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/535761281.jpg" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"></div>
+																			</div>
+																			<!---End of Container-->
+																			<!---Beginning of Container-->
+																			<div class="wrapperContainer" data-container="true" id="containerc55cd5eccaee51617791345915" style="null">
+																				<div class="spacer" data-editorblocktype="Divider">
+																					<div align="right" class="dividerWrapper" style="padding-top: 10px; padding-bottom: 10px;">
+																						<table style="padding: 0px; margin: 0px; width: 100%;">
+																							<tbody>
+																								<tr style="padding: 0px;">
+																									<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																										<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																									</td>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</div>
+																				</div>
+																			</div>
+																			<!---Beginning of Row-->
+																			<table class="row contentRow mobile-view">
+																				<tbody>
+																					<tr>
+																						<!---Beginning of Column-->
+																						<th class="small-12 large-12 columns first last">
+																							<table>
+																								<tbody>
+																									<tr>
+																										<th>
+																											<!---Beginning of Container-->
+																											<div class="wrapperContainer title mobile-p-fix" data-container="true" id="container30f9334f1830a1617791345915" style="null">
+																												<div class="wrapper" data-editorblocktype="Text">
+																													<p> SUMMER 2017 </p>
+																												</div>
+																											</div>
+																											<!---End of Container--><br>
+																											<!---Beginning of Container-->
+																											<div class="wrapperContainer description mobile-p-fix" data-container="true" id="containere614ca2762acb1617791345915" style="null">
+																												<div class="wrapper" data-editorblocktype="Text">
+																													<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+																														labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+																														nisi ut aliquip ex ea commodo consequat. </p>
+																												</div>
+																											</div>
+																											<!---End of Container--><br></th>
+																										<th class="expander"></th>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</th>
+																						<!---End of Column-->
+																					</tr>
+																				</tbody>
+																			</table>
+																			<!---End of Row-->
+																			<!---Beginning of Container-->
+																			<div class="wrapperContainer callToAction" data-container="true" id="container87fd0ca2213d1617791345915" style="null">
+                                                                                <div class="wrapper buttonWrapper" data-editorblocktype="Button" align="center">
+                                                                                    <!--<a class="buttonClass" href="https://www.fabrikam.com" style="mso-hide: all; margin-left: auto; margin-right: auto;" data-msdyn-tracking-id="7342440490d431617791346742" tabindex="-1"> MORE INFO </a>-->
+                                                                                    <a href="https://www.fabrikam.com" class="buttonClass" style="margin-left: auto; margin-right: auto; line-height: 38px;mso-hide: none !important; display: block; width: 167px; height: 38px; max-width: 100%;" data-msdyn-tracking-id="4566e6ac36d451617791482502">
+                                                                                    MORE INFO </a>
+                                                                                </div>
+																			</div>
+																			<!---End of Container--><br></div>
+																	</th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+												</tr>
+											</tbody>
+										</table>
+										<!---End of Row-->
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="containere4bc8b0aaafab1617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider"></div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!---End of Section-->
+						<!---Beginning of Section-->
+						<table align="center" class="container primaryContainer background-primary float-center">
+							<tbody>
+								<tr>
+									<td>
+										<!---Beginning of Row-->
+										<table class="row centralRow mobile-view">
+											<tbody>
+												<tr>
+													<!---Beginning of Column-->
+													<th class="small-12 large-12 columns first last">
+														<table>
+															<tbody>
+																<tr>
+																	<th>
+																		<!---Beginning of Container-->
+																		<div class="wrapperContainer title mobile-p-fix" data-container="true" id="container0b5608d02f7dc1617791345915" style="null">
+																			<div class="wrapper" data-editorblocktype="Text">
+																				<p> EXPLORE MORE ACTIVITIES WITH OUR PARTNERS </p>
+																			</div>
+																		</div>
+																		<!---End of Container-->
+																		<!---Beginning of Container-->
+																		<div class="wrapperContainer" data-container="true" id="container0ce1bdc61693d1617791345915" style="null">
+																			<div class="spacer" data-editorblocktype="Divider">
+																				<div align="right" class="dividerWrapper" style="padding-top: 12.5px; padding-bottom: 12.5px;">
+																					<table style="padding: 0px; margin: 0px; width: 100%;">
+																						<tbody>
+																							<tr style="padding: 0px;">
+																								<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																									<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																				</div>
+																			</div>
+																		</div>
+																		<!---Beginning of Row-->
+																		<table class="row article mobile-view">
+																			<tbody>
+																				<tr>
+																					<!---Beginning of Column-->
+																					<th class="imageColumn small-12 large-6 columns first">
+																						<table>
+																							<tbody>
+																								<tr>
+																									<th>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer image image-primary" data-container="true" id="containere2d145cacde61617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Image"><img alt="article image" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/177244349.jpg" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"></div>
+																										</div>
+																										<!---End of Container-->
+																									</th>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</th>
+																					<!---End of Column-->
+																					<!---Beginning of Column-->
+																					<th class="contentColumn small-12 large-6 columns last">
+																						<table>
+																							<tbody>
+																								<tr>
+																									<th>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer title" data-container="true" id="containerd60b96707632b1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Pack - Relax Days </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer date" data-container="true" id="containerc56fa9e36ac1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Fri, Oct 01 - Sun, Oct 12 </p>
+																											</div>
+																										</div>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer description" data-container="true" id="container204a7e665c90e1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Lorem ipsum dolor sit amet, consectetur. </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer callToAction" data-container="true" id="container49e885599a4081617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p>
+																													<a href="https://www.fabrikam.com"> Check prices &amp; availability </a>
+																												</p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer sponsor" data-container="true" id="container41014851470f51617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Sponsored By: </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																									</th>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</th>
+																					<!---End of Column-->
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!---End of Row-->
+																		<!---Beginning of Row-->
+																		<table class="row article mobile-view">
+																			<tbody>
+																				<tr>
+																					<!---Beginning of Column-->
+																					<th class="imageColumn small-12 large-6 columns first">
+																						<table>
+																							<tbody>
+																								<tr>
+																									<th>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer image image-secondary" data-container="true" id="container410c1c93cbabf1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Image"><img alt="article image" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/146629348.jpg" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"></div>
+																										</div>
+																										<!---End of Container-->
+																									</th>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</th>
+																					<!---End of Column-->
+																					<!---Beginning of Column-->
+																					<th class="contentColumn small-12 large-6 columns last">
+																						<table>
+																							<tbody>
+																								<tr>
+																									<th>
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer title title-secondary" data-container="true" id="container06ad300d40c9b1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> All you can eat </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer date" data-container="true" id="container08f3c81ebdd6c1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Mon, Sep 15 - Thu, Oct 16 </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer description" data-container="true" id="container937dd580d9e471617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> 123 Av NE. Suite 6000. LA, 33333 USA </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer callToAction" data-container="true" id="containere11c2cf524f911617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Ready to eat
+																													<a href="https://www.fabrikam.com"> click here </a>
+																												</p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																										<!---Beginning of Container-->
+																										<div class="wrapperContainer sponsor" data-container="true" id="container737a54023728f1617791345915" style="null">
+																											<div class="wrapper" data-editorblocktype="Text">
+																												<p> Sponsored By: </p>
+																											</div>
+																										</div>
+																										<!---End of Container-->
+																									</th>
+																								</tr>
+																							</tbody>
+																						</table>
+																					</th>
+																					<!---End of Column-->
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!---End of Row-->
+																	</th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+												</tr>
+											</tbody>
+										</table>
+										<!---End of Row-->
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!---End of Section-->
+						<!---Beginning of Section-->
+						<table align="center" class="container footerContainer background-footer float-center">
+							<tbody>
+								<tr>
+									<td>
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="container5f77e59a23a881617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider">
+												<div align="right" class="dividerWrapper" style="padding-top: 10px; padding-bottom: 10px;">
+													<table style="padding: 0px; margin: 0px; width: 100%;">
+														<tbody>
+															<tr style="padding: 0px;">
+																<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																	<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+										<!---Beginning of Row-->
+										<table class="row row-center icons-social">
+											<tbody>
+												<tr>
+													<!---Beginning of Column-->
+													<th class="hide-small small-12 large-2 columns first">
+														<table>
+															<tbody>
+																<tr>
+																	<th></th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+													<!---Beginning of Column-->
+													<th class="small-3 large-1 columns">
+														<table>
+															<tbody>
+																<tr>
+																	<th></th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+													<!---Beginning of Column-->
+													<th class="column-icons small-2 large-1 columns">
+														<table>
+															<tbody>
+																<tr>
+																	<th>
+																		<center>
+																			<!---Beginning of Container-->
+																			<div align="center" class="wrapperContainer float-center" data-container="true" id="container8cb8f9416abd91617791345915" style="null">
+																				<div class="wrapper" data-editorblocktype="Image">
+																					<a href="{{msdyncrm_contentsettings.msdyncrm_facebookurl}}" title="Social Title"> <img alt="socialMedia" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/SocialIcons30x30/fb-30.png" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"> </a>
+																				</div>
+																			</div>
+																			<!---End of Container-->
+																		</center>
+																	</th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+													<!---Beginning of Column-->
+													<th class="column-icons small-2 large-1 columns">
+														<table>
+															<tbody>
+																<tr>
+																	<th>
+																		<center>
+																			<!---Beginning of Container-->
+																			<div align="center" class="wrapperContainer float-center" data-container="true" id="container76c0a74a1fa4a1617791345915" style="null">
+																				<div class="wrapper" data-editorblocktype="Image">
+																					<a href="{{msdyncrm_contentsettings.msdyncrm_twitterurl}}" title="Social Title"> <img alt="socialMedia" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/SocialIcons30x30/twt-30.png" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"> </a>
+																				</div>
+																			</div>
+																			<!---End of Container-->
+																		</center>
+																	</th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+													<!---Beginning of Column-->
+													<th class="column-icons small-2 large-1 columns">
+														<table>
+															<tbody>
+																<tr>
+																	<th>
+																		<center>
+																			<!---Beginning of Container-->
+																			<div align="center" class="wrapperContainer float-center" data-container="true" id="container0ffe31eb0c2581617791345915" style="null">
+																				<div class="wrapper" data-editorblocktype="Image">
+																					<a href="{{msdyncrm_contentsettings.msdyncrm_googleplusurl}}" title="Social Title"> <img alt="socialMedia" src="https://mktdplp102cdn.azureedge.net/public/1.70.1097.0/static/email/images/SocialIcons30x30/gp-30.png" style="max-height: 100%; max-width: 100%; box-sizing: border-box;"> </a>
+																				</div>
+																			</div>
+																			<!---End of Container-->
+																		</center>
+																	</th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+													<!---Beginning of Column-->
+													<th class="small-3 large-1 columns">
+														<table>
+															<tbody>
+																<tr>
+																	<th></th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+													<!---Beginning of Column-->
+													<th class="hide-small small-12 large-2 columns last">
+														<table>
+															<tbody>
+																<tr>
+																	<th></th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+												</tr>
+											</tbody>
+										</table>
+										<!---End of Row-->
+										<!---Beginning of Row-->
+										<table class="row centralRow mobile-view">
+											<tbody>
+												<tr>
+													<!---Beginning of Column-->
+													<th class="small-12 large-12 columns first last">
+														<table>
+															<tbody>
+																<tr>
+																	<th>
+																		<!---Beginning of Container-->
+																		<div class="wrapperContainer legal mobile-p-fix" data-container="true" id="container847de3fa869381617791345915" style="null">
+																			<div class="wrapper" data-editorblocktype="Text">
+																				<p> ©2017 Fabrikam, Inc. </p>
+																			</div>
+																			<div class="wrapper" data-editorblocktype="Text">
+																				<p> {{msdyncrm_contentsettings.msdyncrm_addressmain}} </p>
+																				<p> {{msdyncrm_contentsettings.msdyncrm_addressline2}} </p>
+																			</div>
+																		</div>
+																		<!---End of Container-->
+																		<!---Beginning of Container-->
+																		<div class="wrapperContainer" data-container="true" id="containere4318cdf643651617791345915" style="null">
+																			<div class="spacer" data-editorblocktype="Divider">
+																				<div align="right" class="dividerWrapper" style="padding-top: 5px; padding-bottom: 5px;">
+																					<table style="padding: 0px; margin: 0px; width: 100%;">
+																						<tbody>
+																							<tr style="padding: 0px;">
+																								<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																									<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																				</div>
+																			</div>
+																		</div>
+																		<!---Beginning of Container-->
+																		<div class="wrapperContainer legal mobile-p-fix" data-container="true" id="container1c7332f87edb81617791345915" style="null">
+																			<div class="wrapper" data-editorblocktype="Text">
+																				<p>
+																					<a href="{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}"> Unsubscribe </a> |
+																					<a href="{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}"> Email Preferences </a> |
+																					<a href="https://www.fabrikam.com"> Customer Service </a>
+																				</p>
+																			</div>
+																		</div>
+																		<!---End of Container-->
+																	</th>
+																	<th class="expander"></th>
+																</tr>
+															</tbody>
+														</table>
+													</th>
+													<!---End of Column-->
+												</tr>
+											</tbody>
+										</table>
+										<!---End of Row-->
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="container8dd052eb2521d1617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider">
+												<div align="right" class="dividerWrapper" style="padding-top: 7.5px; padding-bottom: 7.5px;">
+													<table style="padding: 0px; margin: 0px; width: 100%;">
+														<tbody>
+															<tr style="padding: 0px;">
+																<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																	<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!---End of Section-->
+						<!---Beginning of Section-->
+						<table align="center" class="container background-body float-center">
+							<tbody>
+								<tr>
+									<td>
+										<!---Beginning of Container-->
+										<div class="wrapperContainer" data-container="true" id="container6cc1a7fac51e31617791345915" style="null">
+											<div class="spacer" data-editorblocktype="Divider">
+												<div align="right" class="dividerWrapper" style="padding-top: 5px; padding-bottom: 5px;">
+													<table style="padding: 0px; margin: 0px; width: 100%;">
+														<tbody>
+															<tr style="padding: 0px;">
+																<td style="margin: 0px; padding-left: 0px; padding-right: 0px; vertical-align: top;">
+																	<p class="" style="margin: 0 auto; padding: 0px; line-height: 0px; width: 100%;"> <span> &nbsp; </span> </p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!---End of Section-->
+					</center>
+				</td>
+			</tr>
+		</tbody>
+	</table><div style="display: none; white-space: nowrap; font-style: normal; font-weight: normal; font-stretch: normal; font-size: 15px; font-family: courier; line-height: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></body></html>
