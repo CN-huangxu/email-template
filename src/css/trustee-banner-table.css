@@ -38,7 +38,7 @@ tr[class="trustee-banner-border"] { background: #e11837; }
 
 td[class="trustee-banner-border"] { height: 1px; line-height: 1px; font-size: 0px; }
 
-td[class="trustee-banner-bottom-border"] { background: #008BC1; height: 1px; line-height: 1px; font-size: 0px; }
+td[class="trustee-banner-bottom-border"] { background: #008bc1; height: 1px; line-height: 1px; font-size: 0px; }
 
 .trustee-banner-text-1 { line-height: 16px; font-weight: 700; letter-spacing: 3.5px; color: #0086c1; }
 
@@ -46,21 +46,5 @@ td[class="trustee-banner-bottom-border"] { background: #008BC1; height: 1px; lin
 
 .trustee-banner-img { width: 88px; }
 
-@media only screen and (max-width: 768px) { table[class="mobile-visible"], tr[class="mobile-visible"], td[class="mobile-visible"], div[class="mobile-visible"] { height: auto !important; display: table-row !important; overflow: visible !important; line-height: 100% !important; }
-  td[class="mobile-hide"], tr[class="mobile-hide"], table[class="mobile-hide"], span[class="mobile-hide"], img[class="mobile-hide"], div[class="mobile-hide"] { display: none !important; }
-  td[class="tablewidth"], table[class="tablewidth"] { width: 100% !important; text-align: center !important; }
-  td[class="tdblock"] { width: 100% !important; display: block !important; text-align: center !important; }
-  td[class="tdblockleft"] { width: 100% !important; display: block !important; text-align: left !important; }
-  td[class="tdblockline"] { width: 100% !important; display: block !important; height: 1px !important; }
-  img[class="smallimgwidth"] { width: 100% !important; height: auto !important; }
-  td[class="tdblock_space_height"] { height: 15px !important; width: 100% !important; display: block !important; }
-  td[class="vspace20_brd"] { height: 20px !important; line-height: 20px !important; border-top: 1px solid #dfe2e4; }
-  td[class="vspace20"] { height: 20px !important; line-height: 20px !important; }
-  td[class="vspace30"] { height: 30px !important; line-height: 30px !important; }
-  td[class="space"] { width: 15px !important; }
-  td[class="space20"] { width: 20px !important; }
-  td[class="left"], table[class="left"] { text-align: left !important; width: 100% !important; }
-  td[class="height_auto"] { height: auto !important; }
-  table[class="width_auto"] { width: auto !important; }
-  table[class="brd_non"] { border: none !important; } }
+@media only screen and (max-width: 768px) { td[class="space"] { width: 13px !important; } }
 /*# sourceMappingURL=trustee-banner-table.css.map */
