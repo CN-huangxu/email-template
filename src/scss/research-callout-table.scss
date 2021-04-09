@@ -56,3 +56,9 @@
   line-height: 7px;
   height: 7px;
 }
+
+@media only screen and (max-width: 768px) {
+  .mobile-space-41 {
+    width: 41px !important;
+  }
+}
