@@ -1,36 +1,58 @@
 .research-callout1-container {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .research-callout1-right-shape {
-    width: 116px;
+  width: 116px;
 
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 }
 
 .research-callout1-button {
-    background-color: #e11837;
-    border-radius: 5px;
+  background-color: #e11837;
+  border-radius: 5px;
 }
 
 .research-callout1-text-1 {
-    font-size: 12px;
-    line-height: 23px;
+  font-size: 12px;
+  line-height: 23px;
 
-    color: #e11837;
+  color: #e11837;
 }
 .research-callout1-text-2 {
-    font-size: 16px;
-    line-height: 18px;
+  font-size: 16px;
+  line-height: 18px;
 
-    font-weight: 700;
-    text-transform: uppercase;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .research-callout1-text-3 {
-    font-size: 12px;
-    line-height: 17px;
+  font-size: 12px;
+  line-height: 17px;
+}
 
-    
+.height-28 {
+  font-size: 0;
+  line-height: 28px;
+  height: 28px;
+}
+
+.height-24 {
+  font-size: 0;
+  line-height: 24px;
+  height: 24px;
+}
+
+.height-13 {
+  font-size: 0;
+  line-height: 13px;
+  height: 13px;
+}
+
+.height-7 {
+  font-size: 0;
+  line-height: 7px;
+  height: 7px;
 }
