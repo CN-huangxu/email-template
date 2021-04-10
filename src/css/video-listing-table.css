@@ -1,0 +1,24 @@
+.video-listing-text-1 { font-size: 16px; line-height: 22px; font-weight: 700; }
+
+.video-listing-text-2 { font-size: 12px; line-height: 16px; font-weight: 400; }
+
+.video-listing-img { width: 150px; height: 150px; }
+
+.video-listing-img img { width: 150px; height: 150px; }
+
+.height-27 { font-size: 0; line-height: 27px; height: 27px; }
+
+.height-22 { font-size: 0; line-height: 22px; height: 22px; }
+
+.height-14 { font-size: 0; line-height: 14px; height: 14px; }
+
+.height-11 { font-size: 0; line-height: 11px; height: 11px; }
+
+.height-6 { font-size: 0; line-height: 6px; height: 6px; }
+
+@media only screen and (max-width: 768px) { .video-listing-right, .video-listing-left { width: 100% !important; }
+  .video-listing-left { margin-bottom: 25px !important; }
+  .video-listing-img { width: 250px !important; height: 250px !important; }
+  .video-listing-img img { width: 250px !important; height: 250px !important; }
+  .mobile-height-24 { font-size: 0 !important; line-height: 24px !important; height: 24px !important; } }
+/*# sourceMappingURL=video-listing-table.css.map */
