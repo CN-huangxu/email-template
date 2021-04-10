@@ -1,0 +1,97 @@
+.video-description-text-1 {
+    font-size: 12px;
+    line-height: 17px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f00;
+}
+
+.video-description-text-2 {
+    font-size: 16px;
+    line-height: 22px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.video-description-text-3 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+}
+.video-description-img {
+    width: 150px;
+    height: 150px;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.video-description-text-4 {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+
+.height-30 {
+    font-size: 0;
+    line-height: 30px;
+    height: 30px;
+}
+
+.height-14 {
+    font-size: 0;
+    line-height: 14px;
+    height: 14px;
+}
+
+.height-12 {
+    font-size: 0;
+    line-height: 12px;
+    height: 12px;
+}
+
+.height-8 {
+    font-size: 0;
+    line-height: 8px;
+    height: 8px;
+}
+
+.height-6 {
+    font-size: 0;
+    line-height: 6px;
+    height: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+    .video-description-right,
+    .video-description-left {
+        width: 100% !important;
+    }
+
+    .video-description-left {
+        margin-bottom: 25px !important;
+    }
+
+    .video-description-img {
+        width: 250px !important;
+        height: 250px !important;
+        img {
+            width: 250px !important;
+            height: 250px !important;
+        }
+    }
+
+    .mobile-height-24 {
+        height: 24px !important;
+    }
+
+    .mobile-height-26 {
+        height: 26px !important;
+    }
+    .mobile-height-28 {
+        height: 28px !important;
+    }
+}

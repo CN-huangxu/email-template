@@ -13,6 +13,14 @@ body {
     width: 42px;
 }
 
+// 开发专用
+.dev-container {
+    background-image: url("../asset/Desktop/Video\ and\ description.png");
+    background-size: 500px 421px;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
     .space-42 {
         width: 12px !important;
@@ -20,5 +28,11 @@ body {
 
     .mobile-hide {
         display: none !important;
+    }
+
+    // 开发专用
+    .dev-container {
+        background-image: url("../asset/Mobile/Video\ and\ description.png");
+        background-size: 335px 770px;
     }
 }

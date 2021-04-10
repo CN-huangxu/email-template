@@ -2,6 +2,9 @@ body { font-family: Montserrat, Verdana, Arial, sans-serif; font-size: 14px; col
 
 .space-42 { width: 42px; }
 
+.dev-container { background-image: url("../asset/Desktop/Video and description.png"); background-size: 500px 421px; background-repeat: no-repeat; color: #fff; }
+
 @media only screen and (max-width: 768px) { .space-42 { width: 12px !important; }
-  .mobile-hide { display: none !important; } }
+  .mobile-hide { display: none !important; }
+  .dev-container { background-image: url("../asset/Mobile/Video and description.png"); background-size: 335px 770px; } }
 /*# sourceMappingURL=base.css.map */
